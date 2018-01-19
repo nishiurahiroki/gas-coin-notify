@@ -14,7 +14,7 @@ function main() {
     percentage : coinData.percent_change_1h,
     border : NOTIFY_BORDER_PRICE_UP
   });
-  const isDown = isPriceUp({
+  const isDown = isPriceDown({
     percentage : coinData.percent_change_1h,
     border : NOTIFY_BORDER_PRICE_DOWN
   });
